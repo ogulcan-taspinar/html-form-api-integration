@@ -1,0 +1,96 @@
+KULLANICI KAYIT FORMU PROJESİ
+=========================================
+
+Bu proje, RESTful API ile kullanıcı kaydı oluşturmak için tasarlanmış bir HTML arayüzü içerir. 
+Ayrıca bonus olarak Outlook eklentisi de mevcuttur.
+
+DOSYA YAPISI
+============
+
+Ana Proje (Web Sayfası):
+- index.html - Ana HTML sayfası
+- script.js - JavaScript kodu
+- style.css - CSS stilleri
+
+Outlook Eklentisi (Bonus):
+- manifest.xml - Outlook eklenti tanımı
+- outlook.html - Outlook'a özel HTML sayfası
+- outlook-script.js - Outlook API'si ile entegre JavaScript
+- assets/ - Icon dosyaları klasörü
+
+NASIL ÇALIŞTIRILIR
+==================
+
+Web Sayfası:
+1. Live Server veya herhangi bir web sunucusu ile index.html dosyasını açın
+2. "Adınız" ve "Mesleğiniz" alanlarını doldurun
+3. "Gönder" butonuna tıklayın
+4. Sonuç ekranda görünecektir
+
+Outlook Eklentisi (Bonus):
+1. Python sunucusu başlatın: python -m http.server 8080
+2. Outlook Web App veya Desktop açın
+3. Eklenti yönetimi bölümüne gidin
+4. "Özel eklenti ekle" seçin
+5. manifest.xml dosyasını yükleyin
+6. Eklenti Outlook'ta "Rigosis Tools" altında görünecektir
+
+TEKNİK DETAYLAR
+===============
+
+API Entegrasyonu:
+- Endpoint: https://jsonplaceholder.typicode.com/posts
+- Method: POST
+- Request Body: {"name": "...", "job": "..."}
+- Response: ID ile birlikte kayıt bilgileri
+
+Özellikler:
+- Responsive tasarım
+- Form validasyonu
+- Loading durumu gösterimi
+- Hata yönetimi
+- Accessibility (autocomplete)
+- Outlook eklentisi desteği
+
+KULLANILAN TEKNOLOJİLER
+=======================
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Fetch API
+- Office.js (Outlook eklentisi için)
+
+PROJE GEREKSİNİMLERİ
+====================
+✓ HTML arayüz ile 2 alan: "Adınız" ve "Mesleğiniz"
+✓ "Gönder" butonu
+✓ RESTful API entegrasyonu
+✓ Yanıt ID'si ile başarı mesajı: "Sayın [isim], [id] numaralı kaydınız oluşturulmuştur."
+✓ Bonus: Outlook eklentisi
+
+SORUN GİDERME
+=============
+
+Eğer Outlook eklentisi çalışmıyorsa:
+1. Python sunucusunun çalıştığından emin olun
+2. Tarayıcıda localhost:8080/outlook.html adresinin açıldığını kontrol edin
+3. Outlook'ta eklentiyi kaldırıp yeniden yükleyin
+4. Kurumsal Outlook hesabı kullanıyorsanız IT departmanından yardım isteyin
+
+Eğer web sayfası çalışmıyorsa:
+1. Tarayıcı konsolunda (F12) hata olup olmadığını kontrol edin
+2. Internet bağlantınızın olduğundan emin olun
+3. API endpoint'inin erişilebilir olduğunu kontrol edin
+
+GELİŞTİRİCİ
+===========
+Oğulcan Taşpınar
+Rigosis Project Assignment #1
+Tarih: Temmuz 2025
+
+NOTLAR
+======
+- Bu proje test amaçlı API kullanmaktadır (JSONPlaceholder)
+- Gerçek uygulamada veriler bir veritabanında saklanmalıdır
+- Outlook eklentisi production ortamında HTTPS gerektirir
+- Proje tüm gereksinimleri ve bonus özelliği içermektedir

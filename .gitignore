@@ -1,0 +1,25 @@
+# Node modules (eğer varsa)
+node_modules/
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Geçici dosyalar
+.tmp/
+temp/
+
+# Environment dosyaları
+.env
+.env.local
+
+# Build dosyaları
+dist/
+build/
