@@ -13,7 +13,7 @@
 
   <!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
-  <ProviderName>Rigosis</ProviderName>
+  <ProviderName>OT Development</ProviderName>
   <DefaultLocale>tr-TR</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="Kullanıcı Kayıt Formu" />
@@ -102,7 +102,7 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:8080/outlook.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GroupLabel" DefaultValue="Rigosis Tools"/>
+        <bt:String id="GroupLabel" DefaultValue="Development Tools"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Kullanıcı Kayıt"/>
       </bt:ShortStrings>
       <bt:LongStrings>

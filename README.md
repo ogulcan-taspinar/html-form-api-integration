@@ -27,7 +27,7 @@ Bu proje, RESTful API ile kullanıcı kaydı oluşturmak için tasarlanmış bir
 1. Outlook Desktop (Windows) veya Outlook Web App açın
 2. Eklenti geliştirme modunu etkinleştirin
 3. `manifest.xml` dosyasını Outlook'a yükleyin
-4. Eklenti Outlook ribbon'ında "Rigosis Tools" altında görünecektir
+4. Eklenti Outlook ribbon'ında "Development Tools" altında görünecektir
 
 ## Teknik Detaylar
 
@@ -60,4 +60,4 @@ Bu proje, RESTful API ile kullanıcı kaydı oluşturmak için tasarlanmış bir
 ✅ Bonus: Outlook eklentisi
 
 ## Geliştirici
-Oğulcan Taşpınar - Rigosis Project Assignment #1
+Oğulcan Taşpınar - Kişisel Proje

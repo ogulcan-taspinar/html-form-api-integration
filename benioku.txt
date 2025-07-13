@@ -33,7 +33,7 @@ Outlook Eklentisi (Bonus):
 3. Eklenti yönetimi bölümüne gidin
 4. "Özel eklenti ekle" seçin
 5. manifest.xml dosyasını yükleyin
-6. Eklenti Outlook'ta "Rigosis Tools" altında görünecektir
+6. Eklenti Outlook'ta "Development Tools" altında görünecektir
 
 TEKNİK DETAYLAR
 ===============
@@ -85,7 +85,7 @@ Eğer web sayfası çalışmıyorsa:
 GELİŞTİRİCİ
 ===========
 Oğulcan Taşpınar
-Rigosis Project Assignment #1
+Kişisel Proje
 Tarih: Temmuz 2025
 
 NOTLAR
